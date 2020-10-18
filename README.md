@@ -1,6 +1,6 @@
-# GHUTS
+#GHUTS
 
-::Exercise 1
+#::Exercise 1
 ```python
 def batchLoading(list_arg, bsize = 5): ...
 ```
@@ -20,7 +20,7 @@ batchLoading(my_list, bsize = 2)
 >>> 'val9','val10'
 ```
 
-In stances where there it is not possible to have the final batch complete based on the batch size argument it should return the remaining values like the below example.
+For cases where it is not possible to have the final batch 'full' based on the batch size argument, it should return the remaining values like the below example.
 ```python
 my_list = ['val1','val2','val3','val4','val5','val6','val7','val8','val9','val10']
 batchLoading(my_list, bsize = 6)
