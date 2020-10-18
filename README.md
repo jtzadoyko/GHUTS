@@ -33,7 +33,7 @@ batchLoading(my_list, bsize = 6)
 
 - [ ] How many iterations will i need to perform considering the size of the list and the batch size?
 - [ ] How should i determine the starting and ending points for each batch?
-- [ ] How do i create a repository using GIT?
+- [ ] How do i use GIT on my local computer, installation and integration with your CLI (Command Line Interface)?
 - [ ] How do i create a branch in the repository to make edits?
 - [ ] How do i push those changes to my new branch and then create a pull request for review?
 
