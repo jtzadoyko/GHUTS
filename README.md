@@ -1,6 +1,6 @@
-#GHUTS
+# GHUTS
 
-#::Exercise 1
+## ::Exercise 1
 ```python
 def batchLoading(list_arg, bsize = 5): ...
 ```
@@ -30,3 +30,5 @@ batchLoading(my_list, bsize = 6)
 >>> 'val1','val2','val3','val4','val5','val6'
 >>> 'val7','val8','val9','val10'
 ```
+
+Upon completion of this exercise you should create a pull request aka PR with a file name called **batchloading.py**
