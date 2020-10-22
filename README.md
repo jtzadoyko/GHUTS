@@ -40,3 +40,15 @@ batchLoading(my_list, bsize = 6)
 
 
 Upon completion of this exercise you should create a pull request aka PR with a file name called **batchloading.py**
+
+
+def batchloading(list_arg:list, bsize:int = 5):
+	for x in list_arg:
+		print(x)
+
+my_list = ['val1,' 'val2', 'val3,' 'val4', 'val5,' 'val6', 'val7,' 'val8', 'val9,' 'val10']
+my_list2 = ['val1,' 'val2,' 'val3,' 'val4,' 'val5', 'val6,' 'val7,' 'val8,' 'val9,' 'val10']
+
+
+batchloading(my_list, bsize = 2)
+batchloading(my_list2[:6], bsize = 5)
