@@ -31,12 +31,13 @@ batchLoading(my_list, bsize = 6)
 >>> 'val7','val8','val9','val10'
 ```
 
-- [ ] How many iterations will i need to perform considering the size of the list and the batch size?
-- [ ] How should i determine the starting and ending points for each batch?
-- [ ] How do i use GIT on my local computer, installation and integration with your CLI (Command Line Interface)?
-- [ ] How do i create a branch in the repository to make edits?
-- [ ] How do i push those changes to my new branch and then create a pull request for review?
 
+## :::Exercise 2
+```python
+def get_area_and_perimeter(height, width): ...
+```
+Create a function which takes a height and width of a rectangle and returns a tuple with the area and perimeter
+The formula for area is height * width
+The formula for perimeter is (height x 2) + (width x 2)
 
-
-Upon completion of this exercise you should create a pull request aka PR with a file name called **batchloading.py**
+See area_perimeter.py for the file which you can work with
