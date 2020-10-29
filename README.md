@@ -41,3 +41,11 @@ The formula for area is height * width
 The formula for perimeter is (height x 2) + (width x 2)
 
 See area_perimeter.py for the file which you can work with
+
+## :::Exercise 3
+```python
+def get_grade(students_score, grade_scale): ...
+```
+Create a function which takes a students_score and the teachers grading scale and returns the letter grade which the student recieved.
+
+See students_grade.py for the file which you can work with
